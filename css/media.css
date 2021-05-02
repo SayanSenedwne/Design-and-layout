@@ -1,0 +1,244 @@
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+    .header__title {
+        font-size: 36px;
+    }
+    .header__subtitle {
+        font-size: 12px;
+    }
+    .header__btn-word {
+        font-size: 14px;
+    }
+    .hero__microsoft {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero__work {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body.lock {
+        overflow: hidden;
+    }
+    .header__body {
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+    }
+    .header__logo {
+        flex: 0 0 40px;
+    }
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+    }
+    .header__burger span {
+        position: absolute;
+        background: #000;
+        position: absolute;
+        left: 0%;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.6s ease 0s;
+    }
+    .header__burger::before, .header__burger::after {
+        content: '';
+        background: #000;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.6s ease 0s;
+    }
+    .header__burger:before {
+        top: 0;
+    }
+    .header__burger:after {
+        bottom: 0;
+    }
+    .header__burger.active span {
+        transform: scale(0);
+        transition: all 0.5s ease 0s;
+    }
+    .header__burger.active:before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header__burger.active:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .header__menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        transition: all 0.5s ease 0s;
+        background: #eeeff1;
+        padding: 70px 10px 20px 10px;
+    }
+    .header__menu.active {
+        right: 0;
+    }
+    .header__list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .header__list li {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .header__list-login {
+        margin-top: 20px;
+    }
+    .header__list-register {
+        margin-top: 20px;
+    }
+    .header__link {
+        font-size: 18px;
+    }
+    .hero__microsoft {
+        display: flex;
+        justify-content: center;
+    }
+    .hero__right-img {
+        margin-top: 20px;
+    }
+    .header__btn-word {
+        font-size: 12px;
+        max-width: 70%;
+    }
+    .hero__title {
+        font-size: 34px;
+    }
+    .hero__subtitle {
+        font-size: 12px;
+    }
+    .hero__title-work {
+        font-size: 26px;
+    }
+    .hero__subtitle-work {
+        font-size: 12px;
+    }
+    .hero__microsoft-logo {
+        max-width: 50%;
+    }
+    .hero__title-end {
+        font-size: 26px;
+    }
+    .hero__subtitle-end {
+        font-size: 12px;
+    }
+    .hero__btn-end {
+        font-size: 12px;
+    }
+
+    .hero__work {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header__link {
+        font-size: 18px;
+    }
+
+    .hero__video {
+        max-width: 90%;
+    }
+
+    .footer__right {
+        margin-right: 50px;
+    }
+
+    .hero__work {
+        height: 556px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .header__title {
+        font-size: 26px;
+    }
+
+    .hero__work {
+        height: 430px;
+    }
+
+    .header__subtitle {
+        font-size: 10px;
+    }
+
+    .hero__title {
+        font-size: 26px;
+    }
+
+    .hero__subtitle {
+        font-size: 10px;
+    }
+
+    .hero__title-skills {
+        font-size: 24px;
+    }
+
+    .hero__title-a.p {
+        font-size: 16px;
+    }
+
+    .hero__video {
+        max-width: 98%;
+    }
+
+    .hero__title-work {
+        font-size: 20px;
+    }
+
+    .hero__subtitle-work {
+        font-size: 10px;
+    }
+
+    .hero__work {
+        height: 600px;
+    }
+
+    .hero__microsoft {
+        max-width: 70%;
+    }
+
+    .hero__title-end {
+        font-size: 20px;
+    }
+
+    .hero__subtitle-end {
+        font-size: 10px;
+    }
+
+    .footer__right {
+        margin-right: 50px;
+    }
+
+    .hero__input1 {
+        width: 34%;
+    }
+
+    .hero__input2 {
+        max-width: 34%;
+    }
+
+    .hero__input3 {
+        padding-right: 90px;
+    }
+}
